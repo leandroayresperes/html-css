@@ -1,157 +1,183 @@
 body{
 	margin: 0px;
 }
-header{
-	width: 100%;
-	background-color: #0c0c0c;
-	color: #fbfbfb;
-	margin-top: 0px;
-	position: fixed;
-	z-index: 999;
-}
 main{
-	
 	margin-right: auto;
 	margin-left: auto;
 	padding-top: 35px;
 }
 article{
-	width: 80%;
+	width: 70%;
 	background-color: #f9f9f9;
 	font-family: Verdana;
 	margin-top: 20px;
 	margin-right: auto;
 	margin-left: auto;
 	margin-bottom: 45px;
-	padding: 0px 35px 35px 35px;
+	border: 4px solid #ffa500;
 }
 footer{
-	margin-top:45px;
-}
-a{
-	text-decoration: none;
-	color: #fbfbfb;
-}
-a:hover{
-	color: #fc0;
-}
-ul {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-}
-li {
-	display: inline;
-	padding: 8px;
+	background: #efefef;
+	padding: 15px 15px 15px 15px;
+	margin-top: 3%;
+	margin-left: 8%;
+	margin-bottom: 8%;
 }
 h1 {
-	font-size: 30px;
+	font-size: 18px;
 }
-h2 {
-	font-size: 26px;
+p{
+	text-align: justify;
+	line-height: 1.5;
+	font-size: 16px;
 }
-h3 {
-	font-size: 22px;
+.data{
+	float: none;
+	margin: 8% 8% 3% 8%;
+	font-size: 16px;
 }
-.menu{
-	width: 80%;
-	padding: 10px;
-	margin-right: auto;
+.estilo_data {
+	text-align: center;
+	background: #efefef;
+	padding: 15px 15px 15px 15px;
 	margin-left: auto;
-	font-family: Verdana;
+	margin-right: auto;
 	font-size: 16px;
 }
 .apresentacao {
-	width: 100%;
-	float: none;
-	padding-top: 35px;
-	padding-bottom: 15px;
+	font-weight: 600;
+	background: #efefef;
+	padding: 15px 15px 15px 15px;
+	margin-left: 8%;
 }
-.foto{
-	color: #898989;
-	padding-top: 15px;
+.conteudo{
+	background: #efefef;
+	padding: 15px 15px 15px 15px;
+	margin-top: 5%;
+	margin-left: 8%;
+	margin-right: 8%;
+	font-size: 16px;
 }
-.area_info{
-	width: 100%;
-	float: none;
-	padding-top: 10px;
-}
-.fonte{
-	padding-bottom: 45px;
-}
+.despedida{
+	background: #efefef;
+	padding: 15px 15px 15px 15px;
+	margin-top: 5%;
+	margin-left: 8%;
+	font-size: 16px;
 
-.fonte a:link{
-	text-decoration: none;
-	color: #754832;
 }
-.fonte a:visited{
-	color: #324875;
+.aluno{
+	color: #256585;
+	font-size: 16px;
+}
+.academico{
+	font-size: 14px;
 }
 
 @media only screen and (min-width: 480px) { 
-	header{
-		height: 64px;
+	footer {
+		width: 25%;
+		font-size: 18px;
 	}
-	.menu{
-		font-size: 26px;
+	.estilo_data {
+		width: 68%;
+		font-size: 18px;
 	}
-	.img_dest{
-		width:100%;
-		float: none;
+	.apresentacao {
+		width: 30%;
+		font-size: 16px;
 	}
-}
-
-@media only screen and (min-width: 600px) { 
-	header{
-		height: 64px;
-	}
-	.menu{
-		font-size: 26px;
-	}
-	.img_dest{
-		width:100%;
-		float: none;
-	}
-}
-
-@media only screen and (min-width: 768px) { 
-	header{
-		height: 54px;
-	}
-	.menu{
-		font-size: 26px;
-	}
-	.img_dest{
-		width:60%;
-		float: right;
-		margin: 15px 0px 25px 25px;
+	.despedida{
+		width: 20%;
+		font-size: 18px;
 	}
 }
 
 @media only screen and (min-width: 992px) {
-	header{
-		height: 40px;
-	}
-	.menu{
+	footer {
+		width: 25%;
 		font-size: 16px;
 	}
-	.img_dest{
-		width:60%;
-		float: right;
-		margin: 15px 0px 25px 25px;
+	.estilo_data {
+		width: 60%;
+		font-size: 16px;
+	}
+	.apresentacao {
+		width: 30%;
+		font-size: 16px;
+	}
+	.despedida{
+		width: 20%;
+	}
+}
+
+@media only screen and (min-width: 1200px) {
+	footer {
+		width: 20%;
+	}
+	.estilo_data {
+		width: 48%;
+		font-size: 16px;
+	}
+	.apresentacao {
+		width: 23%;
+		font-size: 16px;
+	}
+	.despedida{
+		width: 16%;
 	}
 }
 
 @media only screen and (min-width: 1382px) {
-	header{
-		height: 40px;
-	}
-	.menu{
+	footer {
+		width: 18%;
 		font-size: 16px;
 	}
-	.img_dest{
-		width:60%;
-		float: right;
-		margin: 15px 0px 25px 25px;
+	.estilo_data {
+		width: 45%;
+		font-size: 16px;
+	}
+	.apresentacao {
+		width: 22%;
+		font-size: 16px;
+	}
+	.despedida{
+		width: 16%;
+	}
+}
+
+@media only screen and (min-width: 1560px) {
+	footer {
+		width: 18%;
+		font-size: 16px;
+	}
+	.estilo_data {
+		width: 40%;
+		font-size: 16px;
+	}
+	.apresentacao {
+		width: 18%;
+		font-size: 16px;
+	}
+	.despedida{
+		width: 14%;
+	}
+}
+
+@media only screen and (min-width: 1880px) {
+	footer {
+		width: 15%;
+		font-size: 16px;
+	}
+	.estilo_data {
+		width: 32%;
+		font-size: 16px;
+	}
+	.apresentacao {
+		width: 15%;
+		font-size: 16px;
+	}
+	.despedida{
+		width: 12%;
 	}
 }
